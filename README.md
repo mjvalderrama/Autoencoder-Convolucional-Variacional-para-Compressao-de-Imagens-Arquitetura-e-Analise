@@ -38,25 +38,22 @@ Abaixo, um exemplo da compressão e reconstrução de um dígito do dataset MNIS
 
 ## 📁 Estrutura do Repositório
 
+```text
+Compress-o_Neural_de_Imagens/
+│
+├── CVAE_train.py              # Script para treinar o modelo CVAE
+├── CVAE_encoder.py            # Script para comprimir (codificar) uma imagem
+├── CVAE_decoder.py            # Script para descomprimir (decodificar) uma imagem
+│
+├── CVAE_encoder_train.h5      # (Gerado após o treino) Modelo do encoder salvo
+├── CVAE_decoder_train.h5      # (Gerado após o treino) Modelo do decoder salvo
+│
+├── digit_3.png                # Imagem de exemplo para teste
+├── digit_3_compressed.npy     # (Gerado pelo encoder) Vetor comprimido
+├── digit_3_reconstructed.png  # (Gerado pelo decoder) Imagem reconstruída
+│
+└── README.md                  # Este ficheiro
 
-Compress-o\_Neural\_de\_Imagens/
-│
-├── CVAE\_train.py               # Script para treinar o modelo CVAE
-├── CVAE\_encoder.py             # Script para comprimir (codificar) uma imagem
-├── CVAE\_decoder.py             # Script para descomprimir (decodificar) uma imagem
-│
-├── CVAE\_encoder\_train.h5      # (Gerado após o treino) Modelo do encoder salvo
-├── CVAE\_decoder\_train.h5      # (Gerado após o treino) Modelo do decoder salvo
-│
-├── digit\_3.png                 # Imagem de exemplo para teste
-├── digit\_3\_compressed.npy     # (Gerado pelo encoder) Vetor comprimido
-├── digit\_3\_reconstructed.png  # (Gerado pelo decoder) Imagem reconstruída
-│
-└── README.md                    # Este ficheiro
-
-````
-
----
 
 ## ⚙️ Instalação e Configuração
 
