@@ -154,8 +154,3 @@ Agradecemos ao **Prof. Dr. Leandro Alves Neves** pela orientação e apoio duran
 ## 📄 Licença
 
 Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
-```
-
-Se quiser, posso gerar o arquivo `.md` pronto para você fazer o upload direto no GitHub. Deseja isso?
-```
