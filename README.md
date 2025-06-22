@@ -1,5 +1,3 @@
-Claro! Aqui está o conteúdo formatado como um arquivo `README.md` para um repositório no GitHub, utilizando Markdown com boa estrutura e legibilidade:
-
 ```markdown
 # Compressão de Imagens com Autoencoder Convolucional Variacional (CVAE)
 
