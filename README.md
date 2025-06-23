@@ -72,6 +72,14 @@ O projeto está organizado em pastas para separar o código-fonte (`src`), os mo
 
 ### Descrição dos Arquivos
 
+#### `Autoencoder_CVAE/`
+* **`CVAE_encoder_train.h5`**: Arquivo com os pesos do modelo Encoder treinado.
+* **`CVAE_decoder_train.h5`**: Arquivo com os pesos do modelo Decoder treinado.
+* **`CVAE_train.py`**: Script principal para executar o ciclo de treinamento do modelo.
+* **`CVAE_encoder.py`**: Implementação da arquitetura da rede Encoder.
+* **`CVAE_decoder.py`**: Implementação da arquitetura da rede Decoder.
+* Contém as imagens (`.png`, `.jpg`, `.bmp`) de dígitos geradas pelo modelo após o treinamento, organizadas na subpasta.
+
 #### `Códigos/`
 * **`Avaliador.py`**: Contém as funções e lógicas para avaliar a performance do modelo treinado.
 * **`Codec.py`**: Define a estrutura que integra o Encoder e o Decoder.
@@ -82,15 +90,8 @@ O projeto está organizado em pastas para separar o código-fonte (`src`), os mo
 * **`Padding.py`**: Lógica customizada para a aplicação de padding nas camadas.
 * **`Pooling.py`**: Lógica customizada para a operação de pooling.
 
-#### `Autoencoder_CVAE/`
-* **`CVAE_encoder_train.h5`**: Arquivo com os pesos do modelo Encoder treinado.
-* **`CVAE_decoder_train.h5`**: Arquivo com os pesos do modelo Decoder treinado.
-* **`CVAE_train.py`**: Script principal para executar o ciclo de treinamento do modelo.
-* **`CVAE_encoder.py`**: Implementação da arquitetura da rede Encoder.
-* **`CVAE_decoder.py`**: Implementação da arquitetura da rede Decoder.
-* Contém as imagens (`.png`, `.jpg`, `.bmp`) de dígitos geradas pelo modelo após o treinamento, organizadas na subpasta.
 
-```
+````
 
 ## ⚙️ Instalação e Configuração
 
