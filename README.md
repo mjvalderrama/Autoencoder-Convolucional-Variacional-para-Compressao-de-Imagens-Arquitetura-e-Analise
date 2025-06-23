@@ -33,19 +33,11 @@ A tabela a seguir detalha a arquitetura e os hiperparâmetros do modelo implemen
 | **Hiperparâmetros** | Tamanho do Lote (Batch Size) | 128 |
 | | Épocas (Epochs) | 50 |
 
-## 🖼️ Resultados Visuais
-
-Abaixo, um exemplo da compressão e reconstrução de um dígito do dataset MNIST:
-
-- **Esquerda:** Imagem original  
-- **Direita:** Imagem reconstruída pelo CVAE após ser comprimida para um vetor de apenas 16 dimensões.
-
----
 
 ## 📁 Estrutura do Repositório
 
 ```text
-Compress-o_Neural_de_Imagens/
+Autoencoder-Convolucional-Variacional-para-Compressao-de-Imagens-Arquitetura-e-Analise/
 │
 ├── CVAE_train.py              # Script para treinar o modelo CVAE
 ├── CVAE_encoder.py            # Script para comprimir (codificar) uma imagem
