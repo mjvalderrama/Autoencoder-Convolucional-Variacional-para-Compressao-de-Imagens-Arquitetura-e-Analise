@@ -72,12 +72,9 @@ O projeto está organizado em pastas para separar o código-fonte (`src`), os mo
 
 ### Descrição dos Arquivos
 
-#### `src/` (Código-Fonte)
-* **`CVAE_train.py`**: Script principal para executar o ciclo de treinamento do modelo.
+#### `Códigos/` (Código-Fonte)
 * **`Avaliador.py`**: Contém as funções e lógicas para avaliar a performance do modelo treinado.
 * **`Codec.py`**: Define a estrutura que integra o Encoder e o Decoder.
-* **`CVAE_encoder.py`**: Implementação da arquitetura da rede Encoder.
-* **`CVAE_decoder.py`**: Implementação da arquitetura da rede Decoder. *(Nome original nos arquivos: `CVE_decoder.py`)*.
 * **`Espaco_Latente.py`**: Define a camada ou lógica do espaço latente para um Autoencoder padrão.
 * **`Espaco_Latente_Variacional.py`**: Define a lógica específica do espaço latente variacional, incluindo a reparametrização.
 * **`Funcoes.py`**: Funções auxiliares diversas utilizadas pelo projeto.
@@ -85,13 +82,15 @@ O projeto está organizado em pastas para separar o código-fonte (`src`), os mo
 * **`Padding.py`**: Lógica customizada para a aplicação de padding nas camadas.
 * **`Pooling.py`**: Lógica customizada para a operação de pooling.
 
-#### `models/`
+#### `Autoencoder_CVAE/`
 * **`CVAE_encoder_train.h5`**: Arquivo com os pesos do modelo Encoder treinado.
 * **`CVAE_decoder_train.h5`**: Arquivo com os pesos do modelo Decoder treinado.
+* **`CVAE_train.py`**: Script principal para executar o ciclo de treinamento do modelo.
+* **`CVAE_encoder.py`**: Implementação da arquitetura da rede Encoder.
+* **`CVAE_decoder.py`**: Implementação da arquitetura da rede Decoder.
+* Contém as imagens (`.png`, `.jpg`, `.bmp`) de dígitos geradas pelo modelo após o treinamento, organizadas na subpasta.
 
-#### `results/`
-* Contém as imagens (`.png`, `.jpg`, `.bmp`) de dígitos geradas pelo modelo após o treinamento, organizadas na subpasta `generated_digits/`.
-````
+```
 
 ## ⚙️ Instalação e Configuração
 
