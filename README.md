@@ -51,7 +51,7 @@ Autoencoder-Convolucional-Variacional-para-Compressao-de-Imagens-Arquitetura-e-A
 ├── digit_3_reconstructed.png  # (Gerado pelo decoder) Imagem reconstruída
 │
 └── README.md                  # Este ficheiro
-
+````
 
 ## ⚙️ Instalação e Configuração
 
@@ -64,7 +64,7 @@ Autoencoder-Convolucional-Variacional-para-Compressao-de-Imagens-Arquitetura-e-A
 
 ### 📥 Passos
 
-```bash
+
 # Clone o repositório
 git clone https://github.com/mjvalderrama/Compress-o_Neural_de_Imagens.git
 cd Compress-o_Neural_de_Imagens
