@@ -106,8 +106,8 @@ O projeto está organizado em pastas para separar o código-fonte (`src`), os mo
 
 
 # Clone o repositório
-git clone https://github.com/mjvalderrama/Compress-o_Neural_de_Imagens.git
-cd Compress-o_Neural_de_Imagens
+git clone https://github.com/mjvalderrama/Compress-o_Neural_de_Imagens.git](https://github.com/mjvalderrama/Autoencoder-Convolucional-Variacional-para-Compressao-de-Imagens-Arquitetura-e-Analise.git
+cd Autoencoder-Convolucional-Variacional-para-Compressao-de-Imagens-Arquitetura-e-Analise
 
 # Crie um ambiente virtual (recomendado)
 python -m venv venv
