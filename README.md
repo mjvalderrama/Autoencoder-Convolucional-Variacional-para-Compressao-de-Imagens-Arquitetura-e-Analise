@@ -11,7 +11,7 @@ Este repositório contém os códigos completos para o **treinamento**, **compre
 
 O modelo implementado é um **Convolutional Variational Autoencoder (CVAE)**. A arquitetura combina a eficiência de camadas convolucionais para processamento de dados espaciais com a estrutura probabilística de um VAE para aprender uma representação latente regularizada e compacta.
 
-## Arquitetura e Parêmetros do CVAE
+## Arquitetura e Parâmetros do CVAE
 
 A tabela a seguir detalha a arquitetura e os hiperparâmetros do modelo implementado.
 
