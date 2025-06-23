@@ -72,7 +72,7 @@ O projeto está organizado em pastas para separar o código-fonte (`src`), os mo
 
 ### Descrição dos Arquivos
 
-#### `Códigos/` (Código-Fonte)
+#### `Códigos/`
 * **`Avaliador.py`**: Contém as funções e lógicas para avaliar a performance do modelo treinado.
 * **`Codec.py`**: Define a estrutura que integra o Encoder e o Decoder.
 * **`Espaco_Latente.py`**: Define a camada ou lógica do espaço latente para um Autoencoder padrão.
